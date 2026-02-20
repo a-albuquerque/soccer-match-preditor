@@ -119,36 +119,18 @@ python src/predict.py --fixtures data/fixtures.csv --model models/xgb_model.pkl
 
 ## Data Sources
 
-I've been pulling data from a combination of:
-
-- [Football-Data.co.uk](https://www.football-data.co.uk/) — historical match results and basic stats
-- [FBref](https://fbref.com/) — advanced stats including xG
-- [Transfermarkt](https://www.transfermarkt.com/) — squad values and injury news
-- [API-Football](https://www.api-football.com/) — for more automated data collection (requires API key)
 
 ---
 
-## Current Results
+## Results
 
-Results on the Premier League 2022/23 holdout set:
 
-| Metric | Score |
-|---|---|
-| Accuracy | ~54% |
-| Log Loss | 0.98 |
-| Draw Recall | 31% |
-
-For context, a naive "always predict home win" baseline gets around 46% accuracy. Draws remain the hardest class to get right — more work needed there.
 
 ---
 
 ## Roadmap
 
-- [ ] Add Elo rating as a feature
-- [ ] Experiment with LSTM for sequence-based form modeling
-- [ ] Build a simple web UI for entering upcoming fixtures and getting predictions
-- [ ] Expand coverage beyond the top 5 European leagues
-- [ ] Improve draw prediction (likely needs ensemble or separate binary classifier)
+
 
 ---
 
