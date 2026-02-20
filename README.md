@@ -6,7 +6,7 @@ A machine learning project for predicting the outcome of soccer matches — win,
 
 ## Background
 
-This started as a weekend experiment that got a bit out of hand. I wanted to see how well a model could predict match results using publicly available stats, without relying on live odds or bookmaker data. Turns out there's a lot more signal in the numbers than I expected.
+Personal experimented where I wanted to see how well a model could predict match results using publicly available stats for brazilian local teams only. Is there a lot signal in the data than I expect? I currently don't expect a lot of signal. Let's see...
 
 The model treats each match as a three-class classification problem: home win, away win, or draw.
 
